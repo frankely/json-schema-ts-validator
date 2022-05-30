@@ -1,3 +1,4 @@
+import { ObjectSchema } from '../schemas/object.schema'
 import { validateObject } from './object.validator'
 
 describe('validateObject', () => {

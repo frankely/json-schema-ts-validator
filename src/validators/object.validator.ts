@@ -1,3 +1,4 @@
+import { ObjectSchema } from '../schemas/object.schema'
 import { validateArray } from './array.validator'
 import { validateBoolean } from './boolean.validator'
 import { validateNumber } from './number.validator'

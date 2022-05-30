@@ -6,7 +6,7 @@
  * A schema of { type: 'string', enum: ['red', 'green', 'blue'] } only
  * validates strings that match exactly 'red', 'green' or 'blue'.
  */
-type StringSchema = {
+export type StringSchema = {
   type: 'string'
   enum?: string[]
 }

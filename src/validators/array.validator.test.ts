@@ -1,3 +1,4 @@
+import { ArraySchema } from '../schemas/array.schema'
 import { validateArray } from './array.validator'
 
 describe('validateArray', () => {

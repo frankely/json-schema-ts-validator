@@ -1,3 +1,4 @@
+import { NumberSchema } from '../schemas/number.schema'
 import { validateNumber } from './number.validator'
 
 describe('validateNumber', () => {

@@ -1,3 +1,4 @@
+import { StringSchema } from '../schemas/string.schema'
 import { validateString } from './string.validator'
 
 describe('validateString', () => {

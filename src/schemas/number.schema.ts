@@ -1,3 +1,3 @@
-type NumberSchema = {
+export type NumberSchema = {
   type: 'number'
 }

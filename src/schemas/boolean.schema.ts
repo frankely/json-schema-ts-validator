@@ -1,3 +1,3 @@
-type BooleanSchema = {
+export type BooleanSchema = {
   type: 'boolean'
 }

@@ -1,3 +1,4 @@
+import { BooleanSchema } from '../schemas/boolean.schema'
 import { validateBoolean } from './boolean.validator'
 
 describe('validateBoolean', () => {

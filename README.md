@@ -1,5 +1,27 @@
 # Challenge
 
+## How to run it
+
+All the validators have been placed inside the ```src\validators``` folder, each one with a set of tests that tests their implementation against the provided instructions.
+
+### Install all dependencies
+
+```
+npm install
+```
+
+### Run a demo example (src\main.ts)
+
+```
+npm start
+```
+
+### Run all the tests
+
+```
+npm test
+```
+## Instructions
 The challenge is to implement a limited-scope OpenAPI schema validator.
 
 Write a function called `validateSchema` that takes in two arguments: `data` and `schema` and to check whether or not the `data` value matches the schema.
